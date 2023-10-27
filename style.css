@@ -1,0 +1,266 @@
+/* Ini Buat Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: rgb(135, 215, 255);
+}
+
+/* NAVBAR */
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 8%;
+    background: cyan;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+#menu-icon {
+    font-size: 3.6rem;
+    color: black;
+    display: none;
+}
+
+.logo {
+    width: 5rem;
+    height: 5rem;
+}
+
+.navbar a {
+    color: rgb(82, 82, 82);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-right: 2rem;
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+.button {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    border-radius: 1rem;
+    background: whitesmoke;
+    box-shadow: 2.4px 2.4px 12px 0px rgba(56, 56, 56, 0.881);
+    color: rgb(24, 24, 24);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.button:hover {
+    cursor: pointer;
+    padding: 1.1rem 2.9rem;
+}
+
+/* HOME */
+.awal {
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.gambar {
+    width: 60rem;
+}
+
+/* JADWAL SHOLAT */
+.container {
+    margin: 20px 9rem;
+}
+
+.card {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-header {
+    padding: 2rem;
+    border-radius: .5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: cyan;
+    color: rgb(82, 70, 70);
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+    font-weight: 550;
+}
+
+.lokasi {
+    justify-content: center;
+    display: flex;
+    gap: 5rem;
+}
+
+.lokasi p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#prov {
+    font-size: 1.2rem;
+}
+
+#city {
+    font-size: 1.2rem;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-primary th {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: blue;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+
+.table td {
+    text-align: center;
+    padding: 8px;
+    background-color: rgb(155, 255, 223);
+}
+
+.table-primary td {
+    color: white;
+    background-color: rgb(136, 0, 255);
+}
+
+/* Asmaul Husna */
+
+.judul {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 5rem;
+    background-color: cyan;
+    padding: 10px;
+    color: rgb(82, 70, 70);
+}
+
+.isi {
+    background-color: rgb(155, 255, 223);
+}
+
+#result {
+    padding: 2rem 3rem 3rem;
+    margin: 3rem 4rem 4rem;
+    border-radius: 2rem;
+    gap: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 50fr);
+}
+
+.kotak {
+    width: 20rem;
+    height: 12rem;
+    margin-bottom: 1rem;
+}
+
+.kecil {
+    width: 20rem;
+    border-radius: 5rem;
+    background-color: blue;
+    padding-top: .3rem;
+    padding-bottom: .4rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    vertical-align: middle;
+}
+
+.nomer {
+    background-color: cyan;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    text-align: center;
+    border-radius: 3rem;
+    margin-top: .2rem;
+    color: black;
+}
+
+.save {
+    width: 0.9rem;
+    height: 1.75rem;
+}
+
+.nama {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.arab {
+    margin-top: .4rem;
+    margin-right: .5rem;
+    text-align: right;
+    font-size: 2rem;
+}
+
+.arti {
+    margin-right: .2rem;
+    text-align: right;
+    font-size: 1rem;
+    margin-top: .3rem;
+}
+
+.line {
+    margin-top: 1rem;
+    border-top: 3px solid gray;
+}
+
+.ayat {
+    margin-right: .5rem;
+    text-align: right;
+    font-size: 1rem;
+    margin-top: .5rem;
+}
+
+.kotak .kecil .save {
+    width: .9rem;
+    height: 1.25rem;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.last-text p {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: blue;
+    font-weight: 300;
+    margin-top: 70px;
+}
